@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Typescript</title>
+    <link rel="stylesheet" href="dist/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Finance logger</h1>
+        <ul class="item-list"></ul>
+    </div>
+    <form class="new-item-form">
+        <label>Type:
+            <select id="type">
+                <option value="invoice">Invoice</option>
+                <option value="payment">Payment</option>
+            </select>
+        </label>
+        <label>
+            To / From:
+            <input type="text" id="tofrom">
+        </label>
+        <label>
+            Details:
+            <input type="text" id="details">
+        </label>
+        <label>
+            Amount ($):
+            <input type="text" inputmode="numeric" id="amount">
+        </label>
+        <button>Add</button>
+    </form>
+    <script src="dist/main.js"></script>
+</body>
+</html>

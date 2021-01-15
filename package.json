@@ -6,7 +6,7 @@
   "scripts": {
     "tsc:w": "tsc -w",
     "serve": "live-server --port=3000 --quiet",
-    "start": "npm-run-all --parallel tsc:w serve"
+    "dev": "npm-run-all --parallel tsc:w serve"
   },
   "author": "Morozov Nikita",
   "license": "ISC",

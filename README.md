@@ -1,0 +1,1 @@
+for develop: typescript and live-server install globaly
